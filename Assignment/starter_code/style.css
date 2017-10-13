@@ -1,0 +1,79 @@
+-section, footer, aside, header{
+ -  box-sizing:border-box;
+ -  background:gray;
+ -  border:1px solid black;
+ -  margin: 0 1.5% 24px 1.5%;
+ -}
+ -
+ -header {
+ -  background:transparent;
+ -  border:none;
+ -  overflow:hidden;
+ -  position:relative;
+ -}
+ -#logo {
+ -  background:gray;
+ -  width:150px;
+ -  height:100px;
+ -  float:left;
+ -}
+ -nav {
+ -  top:50%;
+ -  right: 0%;
+ -  position:absolute;
+ -  margin: -18px 0px 0px 0px;
+ -  float:right;
+ -}
+ -ul {
+ -  margin:0px;
+ -}
+ -li{
+ -  display:inline-block;
+ -  background:green;
+ -  margin-left:25px;
+ -  padding:0px 0px;
+ -  height:36px;
+ -  width:100px;
+ -}
+ -
+ -.content-header{
+ -  background:gray;
+ -  width:97%;
+ -  float:left;
+ -  height:125px;
+ -}
+ -aside {
+ -  float:left;
+ -}
+ -.primary{
+ -  width:22%;
+ -  height:723px;
+ -}
+ -
+ -#container{
+ -  float:left;
+ -  width:75%;
+ -}
+ -section {
+ -  height:400px;
+ -  width:72%;
+ -  float:left;
+ -
+ -}
+ -
+ -.secondary {
+ -  height:400px;
+ -  width:22%;
+ -}
+ -
+ -.box {
+ -  height:150px;
+ -  width:22%;
+ -}
+ -
+ -
+ -footer {
+ -  height:125px;
+ -  clear:left;
+ -  margin-bottom:0px;
+ -}
